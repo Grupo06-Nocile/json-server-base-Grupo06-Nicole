@@ -26,6 +26,8 @@ const rules = auth.rewriter({
   users: 600,
   apiList: 664,
   favoriteApi: 660,
+  comments:660
+
 });
 
 app.use(cors());
