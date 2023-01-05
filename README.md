@@ -1,31 +1,3 @@
-<!-- # json-server-base
-
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
-
-## Endpoints
-
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
-
-### Cadastro
-
-POST /register <br/>
-POST /signup <br/>
-POST /users
-
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-
-
-### Login
-
-POST /login <br/>
-POST /signin
-
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users" -->
-<h1 align="center">
-  <img alt="SearchApi" title="SearchApi" src="https://kenzie.com.br/images/logoblue.svg" width="100px" />
-</h1>
-
 <h1 align="center">
    Search Api
 </h1>
@@ -160,32 +132,6 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 Após o usuário estar logado, ele deve conseguir cadastrar, favoritar e comentar as Api's desejadas. Caso seja o administrador logado, ele tem a opção de editar o card da Api.
 
-<!-- <h2 align ='center'> Buscar Perfil do usuário logado (token) </h2>
-
-`GET /profile - FORMATO DA REQUISIÇÃO`
-
-<blockquote>Na requisição apenas é necessário o TOKEN, a aplicação ficará responsável em buscar o id do usuário no token e retorna ele.</blockquote>
-
-<br>
-
-`GET /profile - FORMATO DA RESPOSTA - STATUS 200`
-
-```json
-{
-  "id": "1f4b83fe-c3df-4818-8356-c8d4dedeb49b",
-  "name": "Teste",
-  "email": "teste@gmail.com",
-  "course_module": "m3",
-  "bio": "Teste",
-  "contact": "linkedin/in/teste",
-  "techs": [],
-  "works": [],
-  "created_at": "2022-08-08T00:08:22.920Z",
-  "updated_at": "2022-08-08T00:08:22.920Z",
-  "avatar_url": null
-}
-``` -->
-
 <h2 align ='center'> Cadastrar API'S para a aplicação. </h2>
 
 `POST /apiList - FORMATO DA REQUISIÇÃO`
@@ -300,28 +246,70 @@ Também é possível deletar um comentário, utilizando este endpoint:
 Não é necessário um corpo da requisição.
 ```
 
-<!--Conseguimos atualizar o titulo, a descrição ou o deploy_url, qualquer uma das informações do respectivo trabalho.
-Utilizando este endpoint:
+---
 
-`PUT /users/works/:work_id - FORMATO DA REQUISIÇÃO`
+<h2 align ='center'> Listar favoritos </h2>
+
+`GET /favoriteApi - FORMATO DA REQUISIÇÃO`
+
+```json
+Não é necessário um corpo da requisição
+```
+
+Caso dê tudo certo, a resposta será assim:
+
+`GET /favoriteApi - FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+[
+{
+		"name": "test 2",
+		"description": "test test",
+		"link": "https://pokeapi.co/",
+		"img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+		"uuid": 2
+	},
+{"..."}
+]
+```
+
+<h2 align ='center'> Favoritar Api </h2>
+
+Da mesma forma de criar comentários da Api, conseguimos favoritá-la, dessa forma:
+
+`POST /apiList/uuid/favoriteApi - FORMATO DA REQUISIÇÃO`
+
+```json
+[
+  {
+    "name": "pokemon",
+    "description": "test test",
+    "link": "https://pokeapi.co/",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ"
+  }
+]
+```
+
+`POST /apiList/uuid/favoriteApi - FORMATO DE RESPOSTA`
 
 ```json
 {
-  "title": "KenzieHub Atualizado",
-  "description": "Nova descrição."
+  "name": "pokemon",
+  "description": "test test",
+  "link": "https://pokeapi.co/",
+  "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+  "apiListId": "ZjUO4H7",
+  "uuid": 4
 }
 ```
 
-Também é possível deletar um trabalho do seu perfil, utilizando este endpoint:
+Também é possível deletar um favorito, utilizando este endpoint:
 
-`DELETE /users/works/:work_id`
+`DELETE /favoriteApi/uuid`
 
 ```
 Não é necessário um corpo da requisição.
-``` -->
-
-<!--
-<h2 align ='center'> Atualizando os dados do perfil </h2> -->
+```
 
 ---
 
