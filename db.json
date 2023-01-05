@@ -15,104 +15,64 @@
       "uuid": "72850423-b8c5-4334-bf59-4c8b979107a4"
     },
     {
-
       "email": "fer@mail.com",
       "password": "$2a$10$9vQyca9.x0N3B5EDfWNhouxLE1738YvvDOfSQUErtu0ZAxVPSoBcm",
       "name": "fernanda",
       "isAdmin": true,
       "uuid": "9310eb11-b8d2-44f1-b8ef-d62df38b9ec6"
+    },
+    {
+      "email": "doug@mail.com.br",
+      "password": "$2a$10$GWIL5GfpM79AkzvwA84pGu5uYg6Mthlk7iIcYJiLr5D.D5ACe8JgO",
+      "name": "douglas",
+      "uuid": "462bdb05-e505-4f93-be48-9ca452f5ec87"
     }
   ],
   "apiList": [
     {
-      "userId": 2,
-      "name": "Pokemon api",
-      "description": "api para listar pokemon",
-      "img": null,
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "name": "test 3",
+      "description": "test test",
       "link": "https://pokeapi.co/",
-      "uuid": 2
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+      "uuid": "BjbNBwT"
     },
     {
-      "userId": 1,
-      "name": "hello",
-      "description": "bcajbfkbf",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "name": "testando 2",
+      "description": "test test",
       "link": "https://pokeapi.co/",
-
-      "uuid": 3
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+      "uuid": "wGIDOhO"
     },
     {
-      "userId": 2,
-      "name": "dragon api",
-      "description": "api para listar dragoes",
-      "img": null,
-      "link": "https://dragoapi.com",
-      "uuid": "3it4b1-3n54-f23fd-f212d"
-    },
-    {
-      "userId": 2,
-      "name": "dragon2 api",
-      "description": "api para listar dragoes",
-      "img": null,
-      "link": "https://dragoapi.com",
-      "uuid": "asd-21d1sad-21d23"
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "name": "pokemon",
+      "description": "test test",
+      "link": "https://pokeapi.co/",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+      "uuid": "ZjUO4H7"
     }
   ],
-  "favoriteApi": [
+  "favoriteApi": [],
+  "comments": [
     {
-      "userId": 2,
-      "name": "Pokemon api",
-      "description": "api para listar pokemon",
-      "img": null,
-      "link": "https://pokeapi.co/",
+      "message": "funcional",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "apiListId": "wGIDOhO",
       "uuid": 1
     },
     {
-      "userId": 1,
-      "name": "samuel",
-      "description": "test test",
-      "link": "https://pokeapi.co/",
-      "id": 5
+      "message": " não funcional",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "apiListId": "wGIDOhO",
+      "uuid": 3
     },
     {
-      "userId": 4,
-      "name": "samuel",
-      "description": "test test",
-      "link": "https://pokeapi.co/",
-      "id": 4
-    },
-    {
-      "userId": 4,
-      "name": "samuel",
-      "description": "test test",
-      "link": "https://pokeapi.co/",
-      "id": 6
-    },
-    {
-      "userId": 4,
-      "name": "test",
-      "description": "test test",
-      "link": "https://pokeapi.co/",
-      "id": 7
-    }
-  ],
-  "comments": [
-    {
-      "message": "ok",
-      "userId": 4,
-      "apiListId": "4",
-      "id": 1
-    },
-    {
-      "message": "funcional",
-      "userId": 4,
-      "apiListId": "4",
-      "id": 2
-    },
-    {
-      "message": "funcional",
-      "userId": 4,
-      "apiListId": "7",
-      "id": 3
+      "message": " não funcional",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "apiListId": "wGIDOhO",
+      "uuid": 5
     }
   ]
 }

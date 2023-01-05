@@ -14,7 +14,7 @@ app.use(jsonServer.bodyParser);
 app.use(middlewares);
 
 app.use((req, res, next) => {
-  const uuidUrls = ["/users", "/apiList"];
+  const uuidUrls = ["/users"];
   if (req.method === "POST" && uuidUrls.includes(req.originalUrl)) {
     const newUuid = uuidv4();
     const newBody = { ...req.body, uuid: newUuid };
@@ -26,8 +26,7 @@ const rules = auth.rewriter({
   users: 600,
   apiList: 664,
   favoriteApi: 660,
-  comments:660
-
+  comments: 660,
 });
 
 app.use(cors());
