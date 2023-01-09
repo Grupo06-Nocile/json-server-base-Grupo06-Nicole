@@ -1,102 +1,84 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
+      "email": "uuidgbsdbfccbff@gmail.com",
+      "password": "$2a$10$RNyyvamYvKq0aopXqdYyGe7Zi7tgpf26n3BGa8ElzUZ0OaB5yT2Vm",
+      "name": "testuuid745",
       "isAdmin": false,
-      "id": 1
+      "uuid": "fa579acc-3fdf-442a-bef1-d5b17cab7d2f"
     },
     {
       "email": "admin@mail.com",
-      "password": "$2a$10$A7s88f7qILrI933csLsEk.pnZ1zKcX4iRaLqqUxPHqwjbaBhdZz5y",
+      "password": "$2a$10$J20tmGR/fN1462R2eNQhzu0tSBjeP8U/hvvQrwdN2JyWAZLCvzmDS",
       "name": "Administrador",
       "isAdmin": true,
-      "id": 2
+      "uuid": "72850423-b8c5-4334-bf59-4c8b979107a4"
     },
     {
-      "email": "renan@mail.com",
-      "password": "$2a$10$f52kZNYGzVsOAztS7VrG.uTb2vns2c2yvEN4eu9g0t/pR95HCeoHK",
-      "name": "renan",
-      "isAdmin": false,
-      "id": 3
+      "email": "fer@mail.com",
+      "password": "$2a$10$9vQyca9.x0N3B5EDfWNhouxLE1738YvvDOfSQUErtu0ZAxVPSoBcm",
+      "name": "fernanda",
+      "isAdmin": true,
+      "uuid": "9310eb11-b8d2-44f1-b8ef-d62df38b9ec6"
     },
     {
-      "email": "samuel@mail.com",
-      "password": "$2a$10$rR2V7BazMBaljLHMcH3atu5ebszv3U0R9x78JTPP8vBO98QeR5QX.",
-      "name": "samuel",
-      "id": 4
-    },
-    {
-      "email": "joice@mail.com",
-      "password": "$2a$10$e83Clkczevi/pGamqxR01uMG0kG54IheU2yOkc9Xq2j5zGtR9eBfG",
-      "name": "joice",
-      "id": 5
+      "email": "doug@mail.com.br",
+      "password": "$2a$10$GWIL5GfpM79AkzvwA84pGu5uYg6Mthlk7iIcYJiLr5D.D5ACe8JgO",
+      "name": "douglas",
+      "uuid": "462bdb05-e505-4f93-be48-9ca452f5ec87"
     }
   ],
   "apiList": [
     {
-      "userId": 2,
-      "name": "Pokemon api",
-      "description": "api para listar pokemon",
-      "img": null,
-      "link": "https://pokeapi.co/",
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "name": "hello",
-      "description": "bcajbfkbf",
-      "link": "https://pokeapi.co/",
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "name": "samuel",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "name": "testando checked and onAir",
       "description": "test test",
       "link": "https://pokeapi.co/",
-      "id": 5
-    },
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+      "checked": true,
+      "onAir": true,
+      "uuid": "R5-mjjm"
+    }
+  ],
+  "favoriteApi": [
     {
-      "userId": 4,
-      "name": "samuel",
+      "name": "test 2",
       "description": "test test",
       "link": "https://pokeapi.co/",
-      "id": 4
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+      "uuid": 2
     },
     {
-      "userId": 4,
-      "name": "samuel",
-      "description": "test test",
-      "link": "https://pokeapi.co/",
-      "id": 6
+      "apiListId": "BjbNBwT",
+      "uuid": 3
     },
     {
-      "userId": 4,
-      "name": "test",
+      "name": "pokemon",
       "description": "test test",
       "link": "https://pokeapi.co/",
-      "id": 7
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+      "apiListId": "ZjUO4H7",
+      "uuid": 4
     }
   ],
   "comments": [
     {
-      "message": "ok",
-      "userId": 4,
-      "apiListId": "4",
-      "id": 1
+      "message": "funcional",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "apiListId": "wGIDOhO",
+      "uuid": 1
     },
     {
-      "message": "funcional",
-      "userId": 4,
-      "apiListId": "4",
-      "id": 2
+      "message": " não funcional",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "apiListId": "wGIDOhO",
+      "uuid": 3
     },
     {
-      "message": "funcional",
-      "userId": 4,
-      "apiListId": "7",
-      "id": 3
+      "message": " não funcional",
+      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
+      "apiListId": "wGIDOhO",
+      "uuid": 5
     }
   ]
 }
