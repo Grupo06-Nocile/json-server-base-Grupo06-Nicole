@@ -8,6 +8,8 @@ const { v4: uuidv4 } = require("uuid");
 const app = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
+const SENDGRID_API_KEY =
+  "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";
 
 router.db._.id = "uuid";
 app.db = router.db;
@@ -39,7 +41,7 @@ app.post("/sendemail", async (request, response) => {
 
   const tokenResetPassword = uuidv4();
   const sgMail = require("@sendgrid/mail");
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  sgMail.setApiKey(SENDGRID_API_KEY);
 
   db.get("tokenRecovery")
     .value()
