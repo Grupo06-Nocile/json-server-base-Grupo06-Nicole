@@ -42,36 +42,25 @@
   ],
   "apiList": [
     {
-      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
-      "name": "testando checked and onAir",
-      "description": "test test",
-      "link": "https://pokeapi.co/",
-      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
-      "checked": true,
-      "onAir": true,
-      "uuid": "R5-mjjm"
-    },
-    {
-      "userId": "462bdb05-e505-4f93-be48-9ca452f5ec87",
-      "name": "testando checked and onAir favorite",
-      "description": "test",
-      "link": "https://pokeapi.co/",
-      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
-      "checked": true,
-      "onAir": true,
-      "uuid": "pyy1fFH"
+      "userId": "72850423-b8c5-4334-bf59-4c8b979107a4",
+      "name": "Favoritando",
+      "description": "hello",
+      "link": "https://www.google.com",
+      "img": null,
+      "onAir": false,
+      "checked": false,
+      "favorite": false,
+      "uuid": "k-bWn6D"
     }
   ],
   "favoriteApi": [
     {
-      "name": "pokemon",
-      "description": "test test",
-      "link": "https://pokeapi.co/",
+      "name": "test",
+      "description": "bllabla",
+      "link": "https://www.google.com/",
       "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
-      "checked": true,
-      "onAir": true,
-      "apiListId": "R5-mjjm",
-      "uuid": 5
+      "apiListId": "MSVChnF",
+      "uuid": 1
     }
   ],
   "comments": [

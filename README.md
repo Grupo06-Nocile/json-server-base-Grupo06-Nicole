@@ -134,6 +134,54 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 Após o usuário estar logado, ele deve conseguir cadastrar, favoritar e comentar as Api's desejadas. Caso seja o administrador logado, ele tem a opção de editar o card da Api.
 
+<h2 align ='center'> Buscar por todos os usuários </h2>
+
+`GET /users - FORMATO DA REQUISIÇÃO`
+
+```
+Não é necessário um corpo da requisição.
+```
+
+`GET /users - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+ [{
+		"email": "admin@mail.com",
+		"password": "$2a$10$J20tmGR/fN1462R2eNQhzu0tSBjeP8U/hvvQrwdN2JyWAZLCvzmDS",
+		"name": "Administrador",
+		"isAdmin": true,
+		"uuid": "72850423-b8c5-4334-bf59-4c8b979107a4",
+		"apiList": []
+	},
+  ...
+ ]
+}
+```
+
+<h2 align ='center'> Buscar por um usuário específico. </h2>
+
+`GET /users/uuid - FORMATO DA REQUISIÇÃO`
+
+```
+Não é necessário um corpo da requisição.
+```
+
+`GET /users/uuid - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+ {
+		"email": "admin@mail.com",
+		"password": "$2a$10$J20tmGR/fN1462R2eNQhzu0tSBjeP8U/hvvQrwdN2JyWAZLCvzmDS",
+		"name": "Administrador",
+		"isAdmin": true,
+		"uuid": "72850423-b8c5-4334-bf59-4c8b979107a4",
+		"apiList": []
+	}
+}
+```
+
 <h2 align ='center'> Cadastrar API'S para a aplicação. </h2>
 
 `POST /apiList - FORMATO DA REQUISIÇÃO`
@@ -144,7 +192,10 @@ Após o usuário estar logado, ele deve conseguir cadastrar, favoritar e comenta
   "name": "testando 2",
   "description": "test test",
   "link": "https://pokeapi.co/",
-  "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ"
+  "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+  "checked": true,
+  "onAir": true,
+  "favorite": false
 }
 ```
 
@@ -157,6 +208,9 @@ Após o usuário estar logado, ele deve conseguir cadastrar, favoritar e comenta
   "description": "test test",
   "link": "https://pokeapi.co/",
   "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Fpokeapi&psig=AOvVaw0UXBEgM_ad2z_oxv22KldQ&ust=1673018050978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCNt4fcsPwCFQAAAAAdAAAAABAJ",
+  "checked": true,
+  "onAir": true,
+  "favorite": false,
   "uuid": "3TF2NCT"
 }
 ```
