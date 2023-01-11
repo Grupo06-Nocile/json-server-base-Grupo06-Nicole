@@ -22,7 +22,7 @@ A API tem um total de 14 endpoints, sendo em volta principalmente do usuário - 
 </blockquote>
 <br>
 
-A url base da API é http://localhost:3001
+A url base da API é https://searchapi.onrender.com/
 
 ## Rotas que não precisam de autenticação
 
