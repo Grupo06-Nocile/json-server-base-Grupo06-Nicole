@@ -22,10 +22,22 @@
       "uuid": "9310eb11-b8d2-44f1-b8ef-d62df38b9ec6"
     },
     {
-      "email": "doug@mail.com.br",
+      "email": "dougbmth@hotmail.com",
       "password": "$2a$10$GWIL5GfpM79AkzvwA84pGu5uYg6Mthlk7iIcYJiLr5D.D5ACe8JgO",
       "name": "douglas",
       "uuid": "462bdb05-e505-4f93-be48-9ca452f5ec87"
+    },
+    {
+      "email": "dougscene@gmail.com.br",
+      "password": "$2a$10$CDJnm6zXQVRebpbUuYfFh.GZRcdO.go7uatbZkr.RU9tirVkBGrwS",
+      "name": "recuperar senha",
+      "uuid": "ce07339a-f036-45f9-8ae0-372f316bdeb8"
+    },
+    {
+      "email": "nadot21978@tohup.com",
+      "password": "$2a$10$BZJEE.f5FNbj62JMtMFbIeXmUt.rF9WeE15W7B0gMwhnKXncFVpxm",
+      "name": "recuperar senha",
+      "uuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
     }
   ],
   "apiList": [
@@ -76,6 +88,88 @@
       "userName": "douglas",
       "apiListId": "pyy1fFH",
       "uuid": 6
+    }
+  ],
+  "tokenRecovery": [
+    {
+      "token": "12345",
+      "userUuid": "3210"
+    },
+    {
+      "token": "98765",
+      "userUuid": "98721"
+    },
+    {
+      "token": "8e63362b-6ca3-4d37-aad9-7c81cd4c9c81",
+      "userUuid": "462bdb05-e505-4f93-be48-9ca452f5ec87"
+    },
+    {
+      "token": "25f870c7-3e11-47a8-8dd9-634c225efaf9",
+      "userUuid": "462bdb05-e505-4f93-be48-9ca452f5ec87"
+    },
+    {
+      "token": "00b1ee53-c4cd-46ec-ba06-b7d2f7e11153",
+      "userUuid": "462bdb05-e505-4f93-be48-9ca452f5ec87"
+    },
+    {
+      "token": "7a633135-e7a2-4e7b-84dc-2618489b1905",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "8adaaa79-2616-4859-b695-62058770dca8",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "7a95ad4b-93d4-4f55-91bc-69947794e54f",
+      "userUuid": "462bdb05-e505-4f93-be48-9ca452f5ec87"
+    },
+    {
+      "token": "2eabaea6-cc21-4365-92ec-cff8e5233f57",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "62566076-c4ac-4013-9a6d-efabd226934b",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "155e0d9a-abec-4f5e-aead-ddef9a126145",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "af08e1da-8110-4c57-ae68-d7b6f573f7d7",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "2ab46177-ea06-479f-b509-81aa7c241abc",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "53f00de5-711b-4c40-9d72-0d9adbb70a03",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "575ebbb5-6246-4149-898b-90e4db027ee0",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "155555f2-7112-48d4-be29-351a6ddbd7d9",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "77c94c2c-9634-47c2-aebd-77a22634b41c",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "9d931651-ccc0-4679-85da-fbd04dfe6f7f",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "5efdcaf9-2198-4cd4-bb1c-cf5dbdb74a66",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
+    },
+    {
+      "token": "a8665e12-484a-496c-b038-f5d63881f6d7",
+      "userUuid": "800e6335-4d21-46af-a0f2-acc4be6f255d"
     }
   ]
 }
